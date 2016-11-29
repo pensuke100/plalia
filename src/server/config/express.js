@@ -6,7 +6,7 @@ const routes = require('../routes');
 const app = express();
 
 // Setup app middleware
-app.set('port', (process.env.PORT || 3333));
+app.set('port', (process.env.PORT || 8001));
 
 // enable CORS - default is set to *
 app.use(cors());

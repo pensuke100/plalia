@@ -9,5 +9,3 @@ const server = http.createServer(app);
 server.listen(port, () => {
   logger.info('listening on port: ', port);
 });
-
-module.exports = server;

@@ -1,0 +1,28 @@
+# OS Generated Files
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Utility Folders
+.gradle/
+.sass-cache/
+.idea/
+.tmp/
+.grunt/
+test/
+dpkg/
+node_modules/
+bower_components/
+
+# Compressed Files
+*.tar.gz
+*.tar
+*.gzip
+*.zip
+*.rar
+
+# Other
+*.log

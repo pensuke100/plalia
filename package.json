@@ -1,0 +1,43 @@
+{
+  "name": "plalia",
+  "version": "1.0.0",
+  "author": {
+    "name": "Ryan Tang",
+    "email": "ryantang333@gmail.com"
+  },
+  "description": "Demo express app",
+  "scripts": {
+    "start": "npm i && npm test && node index.js",
+    "test": "grunt mochaTest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryantang333/plalia.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.13.4",
+    "http": "0.0.0",
+    "http-status": "^0.2.3",
+    "load-grunt-tasks": "latest",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.5.0",
+    "eslint-config-airbnb": "^11.1.0",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.2.0",
+    "grunt": "^1.0.1",
+    "grunt-cli": "latest",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-eslint": "^19.0.0",
+    "grunt-mocha-test": "^0.13.2",
+    "mocha": "^3.1.0",
+    "supertest": "^2.0.0",
+    "supertest-as-promised": "^4.0.0"
+  }
+}
